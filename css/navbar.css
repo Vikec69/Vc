@@ -23,3 +23,12 @@
 .w3-hover-border-theme:hover {border-color:#292929 !important}
 
 .logo{text-decoration: none !important; color:#ffd398 !important; font-size: 4em !important; padding-left: 1rem;}
+
+@media only screen and (max-width: 768px) {
+    body {
+        max-width: 100%; /* Zajistí, že obsah nezabírá více než šířku obrazovky */
+        margin: 0; /* Odstraní přebytečné okraje */
+        padding: 0; /* Odstraní přebytečné vnitřní okraje */
+        overflow-x: hidden; /* Zamezí horizontálnímu scrollování */
+    }
+}
