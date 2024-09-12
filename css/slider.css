@@ -1,3 +1,12 @@
+@media only screen and (max-width: 768px) {
+  body {
+      max-width: 100%; /* Zajistí, že obsah nezabírá více než šířku obrazovky */
+      margin: 0; /* Odstraní přebytečné okraje */
+      padding: 0; /* Odstraní přebytečné vnitřní okraje */
+      overflow-x: hidden; /* Zamezí horizontálnímu scrollování */
+  }
+}
+
 body {
     height: 100vh;
     width: 100vw;
