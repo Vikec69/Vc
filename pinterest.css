@@ -1,0 +1,36 @@
+.masonry-container {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+      
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    background-color:#252525 ;
+  }
+  
+  .masonry-item {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .masonry-item img {
+    display:block;
+    width: 100%;
+    border: 1px solid #ffd494;
+    border-radius:25px;
+  }
+  
+  .masonry-item {
+    margin-bottom: 15px;
+  }
+
+  .img-sepia{
+    filter: sepia(100%);
+    transition: filter 0.3s ease; 
+  }
+
+  .img-sepia:hover {
+    filter: none;
+}
+
