@@ -9,9 +9,10 @@
 .w3-theme-d4 {color:#fff !important; background-color:#181818 !important}
 .w3-theme-d5 {color:#fff !important; background-color:#141414 !important}
 
-.w3-theme-light {color:#000 !important; background-color:#f2f2f2 !important}
+.w3-theme-light {color:#141414 !important; background-color:#ffd398 !important}
 .w3-theme-dark {color:#ffd398 !important; background-color:#141414 !important}
-.w3-theme-action {color:#fff !important; background-color:#141414 !important}
+.w3-theme-action {color:#141414 !important; background-color:#ffd398 !important}
+.w3-theme-action:hover {color:#ffd398 !important; background-color:#141414  !important}
 
 .w3-theme {color:#fff !important; background-color:#292929 !important}
 .w3-text-theme {color:#292929 !important}
@@ -32,3 +33,4 @@
         overflow-x: hidden; /* Zamezí horizontálnímu scrollování */
     }
 }
+

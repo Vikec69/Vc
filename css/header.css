@@ -6,11 +6,10 @@ body, html {
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image:url("https://i.pinimg.com/originals/f3/54/50/f354509737bd344c8bc657764bad0803.jpg");
+    background-image:url("https://cdn.discordapp.com/attachments/966405666472353903/1284753220417097769/image.jpg?ex=66e7c72d&is=66e675ad&hm=88cd3179a126b2148c45c2532d944398745814245920914e1f14cef29ba5469e&");
     min-height: 100%;
     border: 1px solid #ffd494;
     border-radius:25px;
-
   }
 
   .img-sepia{
